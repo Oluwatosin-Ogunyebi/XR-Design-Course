@@ -1,0 +1,401 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 UnityEngine.GameObject ActionBasedControllerManager::get_baseControllerGameObject()
+extern void ActionBasedControllerManager_get_baseControllerGameObject_m9BBD1A52F28A68AEF9DC1AF3EABD57D0DD68E641 (void);
+// 0x00000002 System.Void ActionBasedControllerManager::set_baseControllerGameObject(UnityEngine.GameObject)
+extern void ActionBasedControllerManager_set_baseControllerGameObject_mAB105960DAB02BC0FDAFEAC3474F296528309942 (void);
+// 0x00000003 UnityEngine.GameObject ActionBasedControllerManager::get_teleportControllerGameObject()
+extern void ActionBasedControllerManager_get_teleportControllerGameObject_m81B589FC829FE83126B3EFE8899A344FC6DD1119 (void);
+// 0x00000004 System.Void ActionBasedControllerManager::set_teleportControllerGameObject(UnityEngine.GameObject)
+extern void ActionBasedControllerManager_set_teleportControllerGameObject_m26B6302B34DFE491CDD459D41C24FBF63594C30E (void);
+// 0x00000005 UnityEngine.InputSystem.InputActionReference ActionBasedControllerManager::get_teleportModeActivate()
+extern void ActionBasedControllerManager_get_teleportModeActivate_m16BD82FD6ACA5DDC472A182A867A9A0B86A2C344 (void);
+// 0x00000006 System.Void ActionBasedControllerManager::set_teleportModeActivate(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_set_teleportModeActivate_mD9538B9BDCB33B6FE92242D0CB4C08C9E69B135C (void);
+// 0x00000007 UnityEngine.InputSystem.InputActionReference ActionBasedControllerManager::get_teleportModeCancel()
+extern void ActionBasedControllerManager_get_teleportModeCancel_mB0BCFACD71AF2314AD9958033C9F55CD6CF238C0 (void);
+// 0x00000008 System.Void ActionBasedControllerManager::set_teleportModeCancel(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_set_teleportModeCancel_mE4C42ADD20817F2F8985DB24101ECF2D078060B6 (void);
+// 0x00000009 UnityEngine.InputSystem.InputActionReference ActionBasedControllerManager::get_turn()
+extern void ActionBasedControllerManager_get_turn_m829C689DAC6861D5A48033ACE33AAB79001A7975 (void);
+// 0x0000000A System.Void ActionBasedControllerManager::set_turn(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_set_turn_mB6001E7C8DA50B44C3525B9ED060F9BE621B21DB (void);
+// 0x0000000B UnityEngine.InputSystem.InputActionReference ActionBasedControllerManager::get_move()
+extern void ActionBasedControllerManager_get_move_m094F8B1E9ACF36EC256BA206612A1509CE73E854 (void);
+// 0x0000000C System.Void ActionBasedControllerManager::set_move(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_set_move_m0F3CB89E0FCEC14F6E7FEB69BC36160F33BDC097 (void);
+// 0x0000000D UnityEngine.InputSystem.InputActionReference ActionBasedControllerManager::get_translateAnchor()
+extern void ActionBasedControllerManager_get_translateAnchor_m2172B8A268F88BD9CBC78EB716763D1592F6845B (void);
+// 0x0000000E System.Void ActionBasedControllerManager::set_translateAnchor(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_set_translateAnchor_m651A9BF96B432DE404DF89F19689A1395CD49798 (void);
+// 0x0000000F UnityEngine.InputSystem.InputActionReference ActionBasedControllerManager::get_rotateAnchor()
+extern void ActionBasedControllerManager_get_rotateAnchor_m1945D186CC0C636EA53FC2199B0E7F67F19C7078 (void);
+// 0x00000010 System.Void ActionBasedControllerManager::set_rotateAnchor(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_set_rotateAnchor_m43256FA59C01AD731DDB7F53505FEB5A0D64FE65 (void);
+// 0x00000011 ActionBasedControllerManager/ControllerState ActionBasedControllerManager::get_selectState()
+extern void ActionBasedControllerManager_get_selectState_m4DD5D8BB8C2551D2CB6AAEF6853F79F1C08E8930 (void);
+// 0x00000012 ActionBasedControllerManager/ControllerState ActionBasedControllerManager::get_teleportState()
+extern void ActionBasedControllerManager_get_teleportState_mCACDE264068C637D708A3E8EA298D8A682C0CD02 (void);
+// 0x00000013 ActionBasedControllerManager/ControllerState ActionBasedControllerManager::get_interactState()
+extern void ActionBasedControllerManager_get_interactState_m6FFFA84102BF4538CB3D4A5FD0D0CC3FBA97F1E7 (void);
+// 0x00000014 System.Void ActionBasedControllerManager::OnEnable()
+extern void ActionBasedControllerManager_OnEnable_mEBD44DDC11997FCE656E222D291B59E7E10FC1FF (void);
+// 0x00000015 System.Void ActionBasedControllerManager::OnDisable()
+extern void ActionBasedControllerManager_OnDisable_m2A5FE037ABA332667A04945D41EAB76BA7731811 (void);
+// 0x00000016 System.Void ActionBasedControllerManager::Start()
+extern void ActionBasedControllerManager_Start_m081FCE40055F7990E4619BB17EE87046EA901C34 (void);
+// 0x00000017 System.Void ActionBasedControllerManager::Update()
+extern void ActionBasedControllerManager_Update_m1C64EF13281D8FDF5EE8D723CCA897E5A6E15CD5 (void);
+// 0x00000018 System.Void ActionBasedControllerManager::TransitionState(ActionBasedControllerManager/ControllerState,ActionBasedControllerManager/ControllerState)
+extern void ActionBasedControllerManager_TransitionState_m5319EDF15C7242060D6F92BC9868A0B92083045D (void);
+// 0x00000019 System.Void ActionBasedControllerManager::FindBaseControllerComponents()
+extern void ActionBasedControllerManager_FindBaseControllerComponents_m2DAE4C0A983FA3DD044F5F3F1050BDD2A70BC7C7 (void);
+// 0x0000001A System.Void ActionBasedControllerManager::FindTeleportControllerComponents()
+extern void ActionBasedControllerManager_FindTeleportControllerComponents_m18D04F1B9AA0465AF13CF04295C35B7CFA1A6C2F (void);
+// 0x0000001B System.Void ActionBasedControllerManager::SetBaseController(System.Boolean)
+extern void ActionBasedControllerManager_SetBaseController_m1757539FB3FE97E9616281A5FCF9E8A1E5E17AE3 (void);
+// 0x0000001C System.Void ActionBasedControllerManager::SetTeleportController(System.Boolean)
+extern void ActionBasedControllerManager_SetTeleportController_mFB1CD8DF84E54E540353A218E03777B34CF36815 (void);
+// 0x0000001D System.Void ActionBasedControllerManager::OnEnterSelectState(ActionBasedControllerManager/StateId)
+extern void ActionBasedControllerManager_OnEnterSelectState_mEB515A6479A2D50C7321DCA11345B0BB59469A60 (void);
+// 0x0000001E System.Void ActionBasedControllerManager::OnExitSelectState(ActionBasedControllerManager/StateId)
+extern void ActionBasedControllerManager_OnExitSelectState_m38A3B528524D4210A5F7BA81C38AF5EF8228B36F (void);
+// 0x0000001F System.Void ActionBasedControllerManager::OnEnterTeleportState(ActionBasedControllerManager/StateId)
+extern void ActionBasedControllerManager_OnEnterTeleportState_mFD04877915A69518F79F2555CA5A47D508FCAD7C (void);
+// 0x00000020 System.Void ActionBasedControllerManager::OnExitTeleportState(ActionBasedControllerManager/StateId)
+extern void ActionBasedControllerManager_OnExitTeleportState_m698DF18B5D17AF98635F6B14BD9249AF8FD76228 (void);
+// 0x00000021 System.Void ActionBasedControllerManager::OnEnterInteractState(ActionBasedControllerManager/StateId)
+extern void ActionBasedControllerManager_OnEnterInteractState_mB99748D913C19731B28CBCA3BC752CD1CABD36E4 (void);
+// 0x00000022 System.Void ActionBasedControllerManager::OnExitInteractState(ActionBasedControllerManager/StateId)
+extern void ActionBasedControllerManager_OnExitInteractState_mFB5720185801A2E03937CB917EBA0BE4E5CCE55A (void);
+// 0x00000023 System.Void ActionBasedControllerManager::OnUpdateSelectState()
+extern void ActionBasedControllerManager_OnUpdateSelectState_m6E89D69553FEF9549BFA844ED887350AE8E79B83 (void);
+// 0x00000024 System.Void ActionBasedControllerManager::OnUpdateTeleportState()
+extern void ActionBasedControllerManager_OnUpdateTeleportState_m201675C3C4B705C2F277386FB1D70CED56B77DAB (void);
+// 0x00000025 System.Void ActionBasedControllerManager::OnUpdateInteractState()
+extern void ActionBasedControllerManager_OnUpdateInteractState_mC54DCB46ADA2F3129199524FE19B837D72BE64A9 (void);
+// 0x00000026 System.Void ActionBasedControllerManager::EnableAction(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_EnableAction_m25794D65C83AF2F8022478CEF8B7635072AAF6BB (void);
+// 0x00000027 System.Void ActionBasedControllerManager::DisableAction(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_DisableAction_m59A3A777CADCD124AEA207BB6A75915D3CF90540 (void);
+// 0x00000028 UnityEngine.InputSystem.InputAction ActionBasedControllerManager::GetInputAction(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_GetInputAction_m36325EFA845EC2F4FE4818FA24634D38FED1F0FB (void);
+// 0x00000029 System.Void ActionBasedControllerManager::.ctor()
+extern void ActionBasedControllerManager__ctor_mF589EDE62560F16D5F05BC88A167392A204E37C9 (void);
+// 0x0000002A System.Void ActionBasedControllerManager/StateEnterEvent::.ctor()
+extern void StateEnterEvent__ctor_mD412A425B215BC2D726BBED2227604869BD896B3 (void);
+// 0x0000002B System.Void ActionBasedControllerManager/StateUpdateEvent::.ctor()
+extern void StateUpdateEvent__ctor_m3F6241CF1A33C963DEDC354350B61BD4C5983644 (void);
+// 0x0000002C System.Void ActionBasedControllerManager/StateExitEvent::.ctor()
+extern void StateExitEvent__ctor_mA90667173BFCFA00241495160E15DB2E2BC77921 (void);
+// 0x0000002D System.Boolean ActionBasedControllerManager/ControllerState::get_enabled()
+extern void ControllerState_get_enabled_m707D4F603315C4B716C59F2F887AE942D9C96114 (void);
+// 0x0000002E System.Void ActionBasedControllerManager/ControllerState::set_enabled(System.Boolean)
+extern void ControllerState_set_enabled_m27C729892CD7A747809EF2F5161DCAF7598A0063 (void);
+// 0x0000002F ActionBasedControllerManager/StateId ActionBasedControllerManager/ControllerState::get_id()
+extern void ControllerState_get_id_m244CFA6F302E22849C064CF751C719FAAFE90C50 (void);
+// 0x00000030 System.Void ActionBasedControllerManager/ControllerState::set_id(ActionBasedControllerManager/StateId)
+extern void ControllerState_set_id_m79F209BD1B74650590178C922086997CE9572ADC (void);
+// 0x00000031 ActionBasedControllerManager/StateEnterEvent ActionBasedControllerManager/ControllerState::get_onEnter()
+extern void ControllerState_get_onEnter_m95180BA449608C7DC2D3D4977BC79C80A628AC92 (void);
+// 0x00000032 System.Void ActionBasedControllerManager/ControllerState::set_onEnter(ActionBasedControllerManager/StateEnterEvent)
+extern void ControllerState_set_onEnter_m464BF0EF892EC1DD26E7966FCD9D13E3671BEE9F (void);
+// 0x00000033 ActionBasedControllerManager/StateUpdateEvent ActionBasedControllerManager/ControllerState::get_onUpdate()
+extern void ControllerState_get_onUpdate_mE6C3C805E950C95BD6AD4D3061419894C84D1302 (void);
+// 0x00000034 System.Void ActionBasedControllerManager/ControllerState::set_onUpdate(ActionBasedControllerManager/StateUpdateEvent)
+extern void ControllerState_set_onUpdate_m5704C039EF1B34CF4C69F9D5405418ACD2BAF325 (void);
+// 0x00000035 ActionBasedControllerManager/StateExitEvent ActionBasedControllerManager/ControllerState::get_onExit()
+extern void ControllerState_get_onExit_m7124FB8D27E0E07AF285392A23B6CEDD20B29549 (void);
+// 0x00000036 System.Void ActionBasedControllerManager/ControllerState::set_onExit(ActionBasedControllerManager/StateExitEvent)
+extern void ControllerState_set_onExit_m0D7ABCB63111EF3AD232CA3E9E93998C176297BD (void);
+// 0x00000037 System.Void ActionBasedControllerManager/ControllerState::.ctor(ActionBasedControllerManager/StateId)
+extern void ControllerState__ctor_m27AE48BBE091A0FD0A4748BA05217B4A8CFA482B (void);
+// 0x00000038 System.Void FadeTeleportationProvider::Start()
+extern void FadeTeleportationProvider_Start_mB86A76511AB0254F02FDC3E4150E852CADA715AD (void);
+// 0x00000039 System.Collections.IEnumerator FadeTeleportationProvider::FadeIn(UnityEngine.XR.Interaction.Toolkit.TeleportRequest)
+extern void FadeTeleportationProvider_FadeIn_m73EDDB67B1861D7E9F837A10FE26126424ABD4A4 (void);
+// 0x0000003A System.Collections.IEnumerator FadeTeleportationProvider::FadeOut()
+extern void FadeTeleportationProvider_FadeOut_mD72CC4C168780DD202732D10B4AA7B0E7C6B708A (void);
+// 0x0000003B System.Boolean FadeTeleportationProvider::QueueTeleportRequest(UnityEngine.XR.Interaction.Toolkit.TeleportRequest)
+extern void FadeTeleportationProvider_QueueTeleportRequest_mF2094CB45B6A5DDB5EDEC6853D25FA99B1610C47 (void);
+// 0x0000003C System.Void FadeTeleportationProvider::Update()
+extern void FadeTeleportationProvider_Update_m38264F8C319CCF7A2DF747AA5A56D4EBACFCFDED (void);
+// 0x0000003D System.Void FadeTeleportationProvider::.ctor()
+extern void FadeTeleportationProvider__ctor_m43382A9D80653DF3BCA07E033730FFDF84271111 (void);
+// 0x0000003E System.Void FadeTeleportationProvider/<FadeIn>d__5::.ctor(System.Int32)
+extern void U3CFadeInU3Ed__5__ctor_m54E7B9E37845E5880BD3878CEF9ADF2DE869E0DA (void);
+// 0x0000003F System.Void FadeTeleportationProvider/<FadeIn>d__5::System.IDisposable.Dispose()
+extern void U3CFadeInU3Ed__5_System_IDisposable_Dispose_mE57C52439CABA2D314BBF3C21665114068624D3A (void);
+// 0x00000040 System.Boolean FadeTeleportationProvider/<FadeIn>d__5::MoveNext()
+extern void U3CFadeInU3Ed__5_MoveNext_mA7BBE2169A8906EE6773E9ECACBA53A56812E1BB (void);
+// 0x00000041 System.Object FadeTeleportationProvider/<FadeIn>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CFadeInU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3F4C3DBF50D98DD394C8D0FF8F3B32055B9E1EE9 (void);
+// 0x00000042 System.Void FadeTeleportationProvider/<FadeIn>d__5::System.Collections.IEnumerator.Reset()
+extern void U3CFadeInU3Ed__5_System_Collections_IEnumerator_Reset_mBF4EE55E46F1CEAD0392924F130FC92D5122ADF7 (void);
+// 0x00000043 System.Object FadeTeleportationProvider/<FadeIn>d__5::System.Collections.IEnumerator.get_Current()
+extern void U3CFadeInU3Ed__5_System_Collections_IEnumerator_get_Current_mBF5BABC4A247EDED0F8007E1A91AE709F11CE8D3 (void);
+// 0x00000044 System.Void FadeTeleportationProvider/<FadeOut>d__6::.ctor(System.Int32)
+extern void U3CFadeOutU3Ed__6__ctor_m054367F1A53DFC78A127A680A4CB086C59AEFABC (void);
+// 0x00000045 System.Void FadeTeleportationProvider/<FadeOut>d__6::System.IDisposable.Dispose()
+extern void U3CFadeOutU3Ed__6_System_IDisposable_Dispose_m13AB0E4A69D6837826D1DCA4D0EB1C6255568DD9 (void);
+// 0x00000046 System.Boolean FadeTeleportationProvider/<FadeOut>d__6::MoveNext()
+extern void U3CFadeOutU3Ed__6_MoveNext_m6057CB3F42D8C9CD8CD0B6BA1D6C8FEE18E2923D (void);
+// 0x00000047 System.Object FadeTeleportationProvider/<FadeOut>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CFadeOutU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7AE849C3BFD2A788A57CC014ACB64C9DC2374895 (void);
+// 0x00000048 System.Void FadeTeleportationProvider/<FadeOut>d__6::System.Collections.IEnumerator.Reset()
+extern void U3CFadeOutU3Ed__6_System_Collections_IEnumerator_Reset_m8D967CA37EE04D9CDA9CDBA80E5936823757AB98 (void);
+// 0x00000049 System.Object FadeTeleportationProvider/<FadeOut>d__6::System.Collections.IEnumerator.get_Current()
+extern void U3CFadeOutU3Ed__6_System_Collections_IEnumerator_get_Current_m1F074A8DD30BFB2A49922014D06B703C9DABC900 (void);
+// 0x0000004A System.Void HandVisuals::Awake()
+extern void HandVisuals_Awake_m79E09C37EEE87EE1B12D484443D4207246B4E5FB (void);
+// 0x0000004B System.Void HandVisuals::Update()
+extern void HandVisuals_Update_m9DC588F2BC7446DDEEA890DB3EA52D089A93FAAC (void);
+// 0x0000004C System.Void HandVisuals::.ctor()
+extern void HandVisuals__ctor_m9A8CF17B3B8F6076925A0F7EA0D668F2EBD1B0C3 (void);
+// 0x0000004D System.Void OffsetGrabInteractable::Start()
+extern void OffsetGrabInteractable_Start_m0F5079AF1521C5B98E56962B3D82510BEA205B3B (void);
+// 0x0000004E System.Void OffsetGrabInteractable::OnSelectEntering(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs)
+extern void OffsetGrabInteractable_OnSelectEntering_m0C76A713E6C3CD19D33D6E249B738658750AB7C2 (void);
+// 0x0000004F System.Void OffsetGrabInteractable::OnSelectExiting(UnityEngine.XR.Interaction.Toolkit.SelectExitEventArgs)
+extern void OffsetGrabInteractable_OnSelectExiting_mE09CD2680869EAB5837BE4BDD781F8EB7BB29497 (void);
+// 0x00000050 System.Void OffsetGrabInteractable::.ctor()
+extern void OffsetGrabInteractable__ctor_mF03E80D4B4BBBA3DD23F824B8EA5B6980D868D0B (void);
+// 0x00000051 System.Void ChekItem::OnTriggerEnter(UnityEngine.Collider)
+extern void ChekItem_OnTriggerEnter_m6694F7233C9BD92F5AE1931A27E4D0262397EC8A (void);
+// 0x00000052 System.Void ChekItem::.ctor()
+extern void ChekItem__ctor_m0B4C6B4E0FEDA71ABE7ADCCCF8FBD6AAE41D0AE1 (void);
+// 0x00000053 System.Void MoveCube::Start()
+extern void MoveCube_Start_mDF1C2E0FFF394FA65A4B933EB1500E2947B1BC8D (void);
+// 0x00000054 System.Void MoveCube::Update()
+extern void MoveCube_Update_m0574C9E56F6FB71D7B9F457EDD0629B3C95AB910 (void);
+// 0x00000055 System.Void MoveCube::.ctor()
+extern void MoveCube__ctor_mD97FBAAA425C4FAB3323D25CAB7EC00A3CD23F43 (void);
+// 0x00000056 System.Void PlayAudio::Start()
+extern void PlayAudio_Start_m86A14EA0830911AFD81D145AB2E7F7AEE7C6C77B (void);
+// 0x00000057 System.Void PlayAudio::PlayButton()
+extern void PlayAudio_PlayButton_m7E919D71312EEF46734DF9B8360043FE231D3BD1 (void);
+// 0x00000058 System.Void PlayAudio::.ctor()
+extern void PlayAudio__ctor_mFB4A06CE9F21D57E725F284B2C55494834E2B421 (void);
+// 0x00000059 System.Void Readme::.ctor()
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+// 0x0000005A System.Void Readme/Section::.ctor()
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+static Il2CppMethodPointer s_methodPointers[90] = 
+{
+	ActionBasedControllerManager_get_baseControllerGameObject_m9BBD1A52F28A68AEF9DC1AF3EABD57D0DD68E641,
+	ActionBasedControllerManager_set_baseControllerGameObject_mAB105960DAB02BC0FDAFEAC3474F296528309942,
+	ActionBasedControllerManager_get_teleportControllerGameObject_m81B589FC829FE83126B3EFE8899A344FC6DD1119,
+	ActionBasedControllerManager_set_teleportControllerGameObject_m26B6302B34DFE491CDD459D41C24FBF63594C30E,
+	ActionBasedControllerManager_get_teleportModeActivate_m16BD82FD6ACA5DDC472A182A867A9A0B86A2C344,
+	ActionBasedControllerManager_set_teleportModeActivate_mD9538B9BDCB33B6FE92242D0CB4C08C9E69B135C,
+	ActionBasedControllerManager_get_teleportModeCancel_mB0BCFACD71AF2314AD9958033C9F55CD6CF238C0,
+	ActionBasedControllerManager_set_teleportModeCancel_mE4C42ADD20817F2F8985DB24101ECF2D078060B6,
+	ActionBasedControllerManager_get_turn_m829C689DAC6861D5A48033ACE33AAB79001A7975,
+	ActionBasedControllerManager_set_turn_mB6001E7C8DA50B44C3525B9ED060F9BE621B21DB,
+	ActionBasedControllerManager_get_move_m094F8B1E9ACF36EC256BA206612A1509CE73E854,
+	ActionBasedControllerManager_set_move_m0F3CB89E0FCEC14F6E7FEB69BC36160F33BDC097,
+	ActionBasedControllerManager_get_translateAnchor_m2172B8A268F88BD9CBC78EB716763D1592F6845B,
+	ActionBasedControllerManager_set_translateAnchor_m651A9BF96B432DE404DF89F19689A1395CD49798,
+	ActionBasedControllerManager_get_rotateAnchor_m1945D186CC0C636EA53FC2199B0E7F67F19C7078,
+	ActionBasedControllerManager_set_rotateAnchor_m43256FA59C01AD731DDB7F53505FEB5A0D64FE65,
+	ActionBasedControllerManager_get_selectState_m4DD5D8BB8C2551D2CB6AAEF6853F79F1C08E8930,
+	ActionBasedControllerManager_get_teleportState_mCACDE264068C637D708A3E8EA298D8A682C0CD02,
+	ActionBasedControllerManager_get_interactState_m6FFFA84102BF4538CB3D4A5FD0D0CC3FBA97F1E7,
+	ActionBasedControllerManager_OnEnable_mEBD44DDC11997FCE656E222D291B59E7E10FC1FF,
+	ActionBasedControllerManager_OnDisable_m2A5FE037ABA332667A04945D41EAB76BA7731811,
+	ActionBasedControllerManager_Start_m081FCE40055F7990E4619BB17EE87046EA901C34,
+	ActionBasedControllerManager_Update_m1C64EF13281D8FDF5EE8D723CCA897E5A6E15CD5,
+	ActionBasedControllerManager_TransitionState_m5319EDF15C7242060D6F92BC9868A0B92083045D,
+	ActionBasedControllerManager_FindBaseControllerComponents_m2DAE4C0A983FA3DD044F5F3F1050BDD2A70BC7C7,
+	ActionBasedControllerManager_FindTeleportControllerComponents_m18D04F1B9AA0465AF13CF04295C35B7CFA1A6C2F,
+	ActionBasedControllerManager_SetBaseController_m1757539FB3FE97E9616281A5FCF9E8A1E5E17AE3,
+	ActionBasedControllerManager_SetTeleportController_mFB1CD8DF84E54E540353A218E03777B34CF36815,
+	ActionBasedControllerManager_OnEnterSelectState_mEB515A6479A2D50C7321DCA11345B0BB59469A60,
+	ActionBasedControllerManager_OnExitSelectState_m38A3B528524D4210A5F7BA81C38AF5EF8228B36F,
+	ActionBasedControllerManager_OnEnterTeleportState_mFD04877915A69518F79F2555CA5A47D508FCAD7C,
+	ActionBasedControllerManager_OnExitTeleportState_m698DF18B5D17AF98635F6B14BD9249AF8FD76228,
+	ActionBasedControllerManager_OnEnterInteractState_mB99748D913C19731B28CBCA3BC752CD1CABD36E4,
+	ActionBasedControllerManager_OnExitInteractState_mFB5720185801A2E03937CB917EBA0BE4E5CCE55A,
+	ActionBasedControllerManager_OnUpdateSelectState_m6E89D69553FEF9549BFA844ED887350AE8E79B83,
+	ActionBasedControllerManager_OnUpdateTeleportState_m201675C3C4B705C2F277386FB1D70CED56B77DAB,
+	ActionBasedControllerManager_OnUpdateInteractState_mC54DCB46ADA2F3129199524FE19B837D72BE64A9,
+	ActionBasedControllerManager_EnableAction_m25794D65C83AF2F8022478CEF8B7635072AAF6BB,
+	ActionBasedControllerManager_DisableAction_m59A3A777CADCD124AEA207BB6A75915D3CF90540,
+	ActionBasedControllerManager_GetInputAction_m36325EFA845EC2F4FE4818FA24634D38FED1F0FB,
+	ActionBasedControllerManager__ctor_mF589EDE62560F16D5F05BC88A167392A204E37C9,
+	StateEnterEvent__ctor_mD412A425B215BC2D726BBED2227604869BD896B3,
+	StateUpdateEvent__ctor_m3F6241CF1A33C963DEDC354350B61BD4C5983644,
+	StateExitEvent__ctor_mA90667173BFCFA00241495160E15DB2E2BC77921,
+	ControllerState_get_enabled_m707D4F603315C4B716C59F2F887AE942D9C96114,
+	ControllerState_set_enabled_m27C729892CD7A747809EF2F5161DCAF7598A0063,
+	ControllerState_get_id_m244CFA6F302E22849C064CF751C719FAAFE90C50,
+	ControllerState_set_id_m79F209BD1B74650590178C922086997CE9572ADC,
+	ControllerState_get_onEnter_m95180BA449608C7DC2D3D4977BC79C80A628AC92,
+	ControllerState_set_onEnter_m464BF0EF892EC1DD26E7966FCD9D13E3671BEE9F,
+	ControllerState_get_onUpdate_mE6C3C805E950C95BD6AD4D3061419894C84D1302,
+	ControllerState_set_onUpdate_m5704C039EF1B34CF4C69F9D5405418ACD2BAF325,
+	ControllerState_get_onExit_m7124FB8D27E0E07AF285392A23B6CEDD20B29549,
+	ControllerState_set_onExit_m0D7ABCB63111EF3AD232CA3E9E93998C176297BD,
+	ControllerState__ctor_m27AE48BBE091A0FD0A4748BA05217B4A8CFA482B,
+	FadeTeleportationProvider_Start_mB86A76511AB0254F02FDC3E4150E852CADA715AD,
+	FadeTeleportationProvider_FadeIn_m73EDDB67B1861D7E9F837A10FE26126424ABD4A4,
+	FadeTeleportationProvider_FadeOut_mD72CC4C168780DD202732D10B4AA7B0E7C6B708A,
+	FadeTeleportationProvider_QueueTeleportRequest_mF2094CB45B6A5DDB5EDEC6853D25FA99B1610C47,
+	FadeTeleportationProvider_Update_m38264F8C319CCF7A2DF747AA5A56D4EBACFCFDED,
+	FadeTeleportationProvider__ctor_m43382A9D80653DF3BCA07E033730FFDF84271111,
+	U3CFadeInU3Ed__5__ctor_m54E7B9E37845E5880BD3878CEF9ADF2DE869E0DA,
+	U3CFadeInU3Ed__5_System_IDisposable_Dispose_mE57C52439CABA2D314BBF3C21665114068624D3A,
+	U3CFadeInU3Ed__5_MoveNext_mA7BBE2169A8906EE6773E9ECACBA53A56812E1BB,
+	U3CFadeInU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3F4C3DBF50D98DD394C8D0FF8F3B32055B9E1EE9,
+	U3CFadeInU3Ed__5_System_Collections_IEnumerator_Reset_mBF4EE55E46F1CEAD0392924F130FC92D5122ADF7,
+	U3CFadeInU3Ed__5_System_Collections_IEnumerator_get_Current_mBF5BABC4A247EDED0F8007E1A91AE709F11CE8D3,
+	U3CFadeOutU3Ed__6__ctor_m054367F1A53DFC78A127A680A4CB086C59AEFABC,
+	U3CFadeOutU3Ed__6_System_IDisposable_Dispose_m13AB0E4A69D6837826D1DCA4D0EB1C6255568DD9,
+	U3CFadeOutU3Ed__6_MoveNext_m6057CB3F42D8C9CD8CD0B6BA1D6C8FEE18E2923D,
+	U3CFadeOutU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7AE849C3BFD2A788A57CC014ACB64C9DC2374895,
+	U3CFadeOutU3Ed__6_System_Collections_IEnumerator_Reset_m8D967CA37EE04D9CDA9CDBA80E5936823757AB98,
+	U3CFadeOutU3Ed__6_System_Collections_IEnumerator_get_Current_m1F074A8DD30BFB2A49922014D06B703C9DABC900,
+	HandVisuals_Awake_m79E09C37EEE87EE1B12D484443D4207246B4E5FB,
+	HandVisuals_Update_m9DC588F2BC7446DDEEA890DB3EA52D089A93FAAC,
+	HandVisuals__ctor_m9A8CF17B3B8F6076925A0F7EA0D668F2EBD1B0C3,
+	OffsetGrabInteractable_Start_m0F5079AF1521C5B98E56962B3D82510BEA205B3B,
+	OffsetGrabInteractable_OnSelectEntering_m0C76A713E6C3CD19D33D6E249B738658750AB7C2,
+	OffsetGrabInteractable_OnSelectExiting_mE09CD2680869EAB5837BE4BDD781F8EB7BB29497,
+	OffsetGrabInteractable__ctor_mF03E80D4B4BBBA3DD23F824B8EA5B6980D868D0B,
+	ChekItem_OnTriggerEnter_m6694F7233C9BD92F5AE1931A27E4D0262397EC8A,
+	ChekItem__ctor_m0B4C6B4E0FEDA71ABE7ADCCCF8FBD6AAE41D0AE1,
+	MoveCube_Start_mDF1C2E0FFF394FA65A4B933EB1500E2947B1BC8D,
+	MoveCube_Update_m0574C9E56F6FB71D7B9F457EDD0629B3C95AB910,
+	MoveCube__ctor_mD97FBAAA425C4FAB3323D25CAB7EC00A3CD23F43,
+	PlayAudio_Start_m86A14EA0830911AFD81D145AB2E7F7AEE7C6C77B,
+	PlayAudio_PlayButton_m7E919D71312EEF46734DF9B8360043FE231D3BD1,
+	PlayAudio__ctor_mFB4A06CE9F21D57E725F284B2C55494834E2B421,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+};
+static const int32_t s_InvokerIndices[90] = 
+{
+	6598,
+	5298,
+	6598,
+	5298,
+	6598,
+	5298,
+	6598,
+	5298,
+	6598,
+	5298,
+	6598,
+	5298,
+	6598,
+	5298,
+	6598,
+	5298,
+	6598,
+	6598,
+	6598,
+	6728,
+	6728,
+	6728,
+	6728,
+	2909,
+	6728,
+	6728,
+	5193,
+	5193,
+	5267,
+	5267,
+	5267,
+	5267,
+	5267,
+	5267,
+	6728,
+	6728,
+	6728,
+	11271,
+	11271,
+	10975,
+	6728,
+	6728,
+	6728,
+	6728,
+	6495,
+	5193,
+	6566,
+	5267,
+	6598,
+	5298,
+	6598,
+	5298,
+	6598,
+	5298,
+	5267,
+	6728,
+	4704,
+	6598,
+	3810,
+	6728,
+	6728,
+	5267,
+	6728,
+	6495,
+	6598,
+	6728,
+	6598,
+	5267,
+	6728,
+	6495,
+	6598,
+	6728,
+	6598,
+	6728,
+	6728,
+	6728,
+	6728,
+	5298,
+	5298,
+	6728,
+	5298,
+	6728,
+	6728,
+	6728,
+	6728,
+	6728,
+	6728,
+	6728,
+	6728,
+	6728,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	90,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

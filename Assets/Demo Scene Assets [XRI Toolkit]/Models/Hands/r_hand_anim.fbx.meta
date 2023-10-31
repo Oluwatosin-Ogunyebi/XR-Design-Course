@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: ad88555b58172164a8f1e46d93f7d3f6
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: RightHandIdle
+  - first:
+      74: 6604664926255484848
+    second: RightHandSoftGrab
+  - first:
+      74: 5303647870081643365
+    second: RightHandMediumGrab
+  - first:
+      74: 9167375849029929344
+    second: RightHandHardGrab
+  - first:
+      74: -8960067771031575035
+    second: RightHandSoftPinch
+  - first:
+      74: -8913122573122947977
+    second: RightHandMediumPinch
+  - first:
+      74: -6592578320452083637
+    second: RightHandHardPinch
+  - first:
+      74: -8923488525163985212
+    second: RightHandPointIdle
+  - first:
+      74: 3820905523493387132
+    second: RightHandPointPoseEnter
+  - first:
+      74: 160784270046323888
+    second: RightHandPointInteraction
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: RightHandIdle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RightHandSoftGrab
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RightHandMediumGrab
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RightHandHardGrab
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RightHandSoftPinch
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 30
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RightHandMediumPinch
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 30
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RightHandHardPinch
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 30
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RightHandPointPoseEnter
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 13
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RightHandPointIdle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 23
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: RightHandPointInteraction
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 23
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: r_hand_anim(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand
+      parentName: r_hand_anim(Clone)
+      position: {x: 0.06890193, y: 0.013463689, z: -0.06712607}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: skeleton_grp
+      parentName: r_hand
+      position: {x: -3.907985e-16, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_wrist_A_jnt
+      parentName: skeleton_grp
+      position: {x: -0.011957369, y: -0.005715036, z: -0.043039426}
+      rotation: {x: 0.14685112, y: 0.5017681, z: 0.58575076, w: 0.61932194}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_wrist_B_jnt
+      parentName: r_wrist_A_jnt
+      position: {x: 1.776357e-17, y: 6.661338e-18, z: -1.776357e-17}
+      rotation: {x: -0.049801033, y: 0.11394968, z: 0.00118916, w: 0.99223685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Thumb_A_jnt
+      parentName: r_wrist_B_jnt
+      position: {x: -0.028717699, y: -0.009946376, z: 0.03187123}
+      rotation: {x: 0.74121815, y: 0.3743455, z: -0.1644078, w: 0.5323826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Thumb_B_jnt
+      parentName: r_Thumb_A_jnt
+      position: {x: -0.03872902, y: -5.3290707e-17, z: 1.665335e-17}
+      rotation: {x: -0.19858152, y: 0.025703572, z: 0.16238639, w: 0.96619636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Thumb_C_jnt
+      parentName: r_Thumb_B_jnt
+      position: {x: -0.04071244, y: -4.4408918e-17, z: -0.0004966183}
+      rotation: {x: 0.04783527, y: -0.037654236, z: 0.18477584, w: 0.9808934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Ring_A_jnt
+      parentName: r_wrist_B_jnt
+      position: {x: -0.04799739, y: 0.0011076389, z: -0.0074588307}
+      rotation: {x: -0.021958996, y: -0.028140688, z: -0.017275551, w: 0.99921346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Ring_B_jnt
+      parentName: r_Ring_A_jnt
+      position: {x: -0.04349648, y: 8.881784e-18, z: -6.217249e-17}
+      rotation: {x: 0.027381374, y: -0.021891927, z: 0.11063726, w: 0.9932424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Ring_C_jnt
+      parentName: r_Ring_B_jnt
+      position: {x: -0.05074852, y: -2.2204459e-17, z: 6.217249e-17}
+      rotation: {x: 0, y: 0, z: 0.1966087, w: 0.98048204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Ring_D_jnt
+      parentName: r_Ring_C_jnt
+      position: {x: -0.032134358, y: 3.9968027e-17, z: -7.1054265e-17}
+      rotation: {x: 0, y: 0, z: 0.09092934, w: 0.99585736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Pinky_A_jnt
+      parentName: r_wrist_B_jnt
+      position: {x: -0.02559559, y: -0.00004695936, z: -0.02051493}
+      rotation: {x: -0.0827077, y: -0.26522267, z: 0.06730125, w: 0.9582729}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Pinky_B_jnt
+      parentName: r_Pinky_A_jnt
+      position: {x: -0.062036898, y: 3.552714e-17, z: -7.1054265e-17}
+      rotation: {x: 0.29597664, y: 0.24902381, z: -0.4772541, w: 0.7890586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Pinky_C_jnt
+      parentName: r_Pinky_B_jnt
+      position: {x: -0.03611551, y: 3.9968027e-17, z: -3.552714e-17}
+      rotation: {x: -0.004946764, y: 0.00026264854, z: 0.15284847, w: 0.98823726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Pinky_D_jnt
+      parentName: r_Pinky_C_jnt
+      position: {x: -0.02387219, y: 2.664535e-17, z: -1.776357e-17}
+      rotation: {x: 0.0037555061, y: 0.036244113, z: 0.10299675, w: 0.9940141}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Middle_B_jnt
+      parentName: r_wrist_B_jnt
+      position: {x: -0.09464957, y: 0.002714709, z: 0.01192826}
+      rotation: {x: 0.0012502115, y: 0.01018668, z: 0.08835594, w: 0.9960361}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Middle_C_jnt
+      parentName: r_Middle_B_jnt
+      position: {x: -0.053620536, y: 2.664535e-17, z: 2.664535e-17}
+      rotation: {x: 0, y: 0, z: 0.17063224, w: 0.9853348}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Middle_D_jnt
+      parentName: r_Middle_C_jnt
+      position: {x: -0.03405793, y: 4.4408918e-17, z: 0}
+      rotation: {x: -0.00072611525, y: -0.007007686, z: 0.10306263, w: 0.99464995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Pointer_B_jnt
+      parentName: r_wrist_B_jnt
+      position: {x: -0.09392205, y: -0.0009791686, z: 0.03558534}
+      rotation: {x: -0.005589387, y: 0.063984364, z: 0.09628376, w: 0.9932795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Pointer_C_jnt
+      parentName: r_Pointer_B_jnt
+      position: {x: -0.048701666, y: 1.5543119e-17, z: 2.2204459e-17}
+      rotation: {x: -0.0051835543, y: -0.032336857, z: 0.1581931, w: 0.9868649}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_Pointer_D_jnt
+      parentName: r_Pointer_C_jnt
+      position: {x: -0.031940058, y: -4.440892e-18, z: -1.3322679e-17}
+      rotation: {x: 0.021689832, y: -0.030661942, z: 0.10368829, w: 0.9939005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_attachPoint_jnt
+      parentName: r_wrist_A_jnt
+      position: {x: -0.07246957, y: -0.024200499, z: 0.021507138}
+      rotation: {x: 2.215823e-19, y: 0.08515566, z: -2.5926338e-18, w: 0.9963677}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
